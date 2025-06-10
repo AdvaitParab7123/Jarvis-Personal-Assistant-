@@ -9,7 +9,7 @@ from client import PersonalAIAgent
 
 # --- API Key (HARDCODED as requested for now) ---
 # IMPORTANT: This is for quick testing. For real applications, use environment variables.
-GEMINI_API_KEY = "AIzaSyAE3qIXXkEoLdugrDzgtStC6iWQChvBWL4" # <--- PASTE YOUR ACTUAL GEMINI API KEY HERE!
+GEMINI_API_KEY = "" # <--- PASTE YOUR ACTUAL GEMINI API KEY HERE!
 
 
 recognizer = sr.Recognizer()
