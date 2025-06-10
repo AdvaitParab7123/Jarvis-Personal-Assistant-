@@ -4,7 +4,7 @@ import google.generativeai as genai
 class PersonalAIAgent:
     def __init__(self, api_key: str):
         # Configure the Google Gemini API key directly
-        genai.configure(api_key="AIzaSyAE3qIXXkEoLdugrDzgtStC6iWQChvBWL4")
+        genai.configure(api_key="")
 
         # Initialize the model. 'gemini-1.5-flash' is a good balance.
         self.model = genai.GenerativeModel('gemini-1.5-flash')
